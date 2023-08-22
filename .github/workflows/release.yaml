@@ -66,6 +66,4 @@ jobs:
       - name: Create Release
         working-directory: modules/drivers/materialize
         run: |
-          gh release create ${{ github.ref }} ../../../resources/modules/materialize.metabase-driver.jar -t "Release ${{ github.ref }}" -n "Release of the 
-Materialize driver for Metabase"
-
+          gh release create ${{ github.ref }} ../../../resources/modules/materialize.metabase-driver.jar -t "Release ${{ github.ref }}" -n "Release of the Materialize driver for Metabase"
